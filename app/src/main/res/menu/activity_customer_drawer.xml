@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_customer"
+            android:icon="@drawable/ic_business_white_36dp"
+            android:title="Customer" />
+        <item
+            android:id="@+id/nav_invoice_credit"
+            android:icon="@drawable/ic_assessment_white_36dp"
+            android:title="Invoice/Credit" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_receipt_white_36dp"
+            android:title="Order" />
+        <item
+            android:id="@+id/nav_dex"
+            android:icon="@drawable/ic_developer_board_white_36dp"
+            android:title="Dex" />
+        <item
+            android:id="@+id/nav_payments"
+            android:icon="@drawable/ic_payment_white_36dp"
+            android:title="Payments" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
